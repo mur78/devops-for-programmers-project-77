@@ -3,3 +3,5 @@
 
 Project
 devops-for-programmers-project-77
+
+Requirements: Ansible Python Terraform
