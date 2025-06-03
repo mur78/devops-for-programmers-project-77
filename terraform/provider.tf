@@ -17,7 +17,7 @@ provider "yandex" {
   folder_id = var.yc_folder
 }
 
-provider "datadog" {
-  api_key = var.datadog_api_key
-  api_url = var.datadog_url
-}
+//provider "datadog" {
+  //api_key = var.datadog_api_key
+  //api_url = var.datadog_url
+//}
