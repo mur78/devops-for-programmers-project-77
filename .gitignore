@@ -4,3 +4,4 @@ vault_pass
 *.backup
 /terraform/*.tfstate
 /terraform/*.tfstate.*
+*.tfstate
