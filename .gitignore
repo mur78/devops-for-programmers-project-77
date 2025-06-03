@@ -2,3 +2,5 @@ vault_pass
 **/secrets*
 .terraform*
 *.backup
+/terraform/*.tfstate
+/terraform/*.tfstate.*
