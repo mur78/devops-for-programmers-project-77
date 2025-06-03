@@ -1,0 +1,14 @@
+redmine_db_name: "{{ db_name }}"
+redmine_db_user: "{{ db_user }}"
+redmine_db_host: "{{ db_host }}"
+redmine_db_password: "{{ vault_redmine_db_pass }}"
+redmine_db_port: 6432
+
+datadog_api_key: "{{ datadog_api_key }}"
+datadog_site: "datadoghq.eu"
+datadog_checks:
+  http_check:
+    init_config: {}
+    instances:
+      - name: app_check
+        url: http://localhost

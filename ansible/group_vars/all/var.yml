@@ -1,0 +1,2 @@
+REDMINE_PORT: 3000 
+ansible_python_interpreter: /usr/bin/python3
