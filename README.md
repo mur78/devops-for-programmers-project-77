@@ -7,7 +7,6 @@ devops-for-programmers-project-77
 Requirements: Ansible Python Terraform
 
 
-
 File secrets.auto.tfvars
 
 
@@ -17,7 +16,6 @@ yc_user - the username
 db_name - database name.
 db_user - database user name.
 db_password - database password.
-
 
 
 
