@@ -185,6 +185,6 @@ resource "datadog_monitor" "host_is_up" {
 
   notify_no_data    = true
   renotify_interval = 60
-  notify_audit = true
-  timeout_h    = 1
+  notify_audit      = true
+  timeout_h         = 1
 }
